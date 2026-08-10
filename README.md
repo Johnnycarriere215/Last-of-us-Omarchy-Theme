@@ -66,11 +66,16 @@ All wallpapers live in [`backgrounds/`](backgrounds/) and are cycled with `omarc
 </p>
 <p align="center">
   <img src="backgrounds/bg7.jpg" width="49%" />
+  <img src="backgrounds/bg8.jpg" width="49%" />
+</p>
+<p align="center">
+  <img src="backgrounds/bg9.jpg" width="49%" />
+  <img src="backgrounds/bg10.jpg" width="49%" />
 </p>
 
 > Drop any `.jpg` / `.png` into `backgrounds/` to add more — no config needed, they join the
-> wallpaper cycler automatically. To have them show in the gallery above, name them `bg8.jpg`,
-> `bg9.jpg`, etc. and add matching `<img>` lines here.
+> wallpaper cycler automatically. To have them show in the gallery above, name them `bg11.jpg`,
+> `bg12.jpg`, etc. and add matching `<img>` lines here.
 
 ## Credits
 
