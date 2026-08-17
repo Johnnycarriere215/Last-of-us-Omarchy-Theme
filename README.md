@@ -1,4 +1,4 @@
-# Freebuff — The Last of Us Theme for Omarchy
+# The Last of Us — Omarchy Theme
 
 A dark survival-horror theme for [Omarchy](https://omarchy.org/) inspired by
 *The Last of Us*. It uses near-black charcoal-green surfaces, bone-white text,
@@ -26,8 +26,8 @@ omarchy theme bg next
 ```
 
 The theme is named after the repository, so it installs as
-`last-of-us-omarchy`. To have it appear as **Freebuff** in the theme picker,
-rename the cloned folder (or the repository) to `freebuff`.
+`last-of-us-omarchy`. To change the display name in the theme picker, rename
+the cloned folder.
 
 ## Palette
 
