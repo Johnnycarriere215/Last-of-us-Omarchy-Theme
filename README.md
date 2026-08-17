@@ -96,11 +96,36 @@ All wallpapers live in [`backgrounds/`](backgrounds/) and are cycled with `omarc
 </p>
 <p align="center">
   <img src="backgrounds/bg7.jpg" width="49%" />
+  <img src="backgrounds/tlou-83q1j2.jpg" width="49%" />
+</p>
+<p align="center">
+  <img src="backgrounds/tlou-83zdz1.jpg" width="49%" />
+  <img src="backgrounds/tlou-96jgdd.jpg" width="49%" />
+</p>
+<p align="center">
+  <img src="backgrounds/tlou-g8eeoe.jpg" width="49%" />
+  <img src="backgrounds/tlou-g8lkel.png" width="49%" />
+</p>
+<p align="center">
+  <img src="backgrounds/tlou-j5zzmm.jpg" width="49%" />
+  <img src="backgrounds/tlou-m96oj9.jpg" width="49%" />
+</p>
+<p align="center">
+  <img src="backgrounds/tlou-m96rgm.jpg" width="49%" />
+  <img src="backgrounds/tlou-q29qgd.jpg" width="49%" />
+</p>
+<p align="center">
+  <img src="backgrounds/tlou-xlxryl.jpg" width="49%" />
+  <img src="backgrounds/tlou-ymppyd.jpg" width="49%" />
+</p>
+<p align="center">
+  <img src="backgrounds/tlou-zmw3yw.jpg" width="49%" />
 </p>
 
-> Drop any `.jpg` / `.png` into `backgrounds/` to add more — they join the wallpaper
-> cycler automatically. To have them show in the gallery above, name them `bg8.jpg`,
-> `bg9.jpg`, etc. and add matching `<img>` lines here.
+> All 19 wallpapers ship with the theme — the full Last of Us cycle, exactly as used on
+> the author's desktop. Drop any `.jpg` / `.png` into `backgrounds/` to add more; they
+> join the wallpaper cycler automatically. To show new ones in the gallery above, add
+> matching `<img>` lines here.
 
 ---
 
