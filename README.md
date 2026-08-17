@@ -1,8 +1,8 @@
-# The Last of Us — Omarchy Theme
+# Freebuff — The Last of Us Theme for Omarchy
 
 A dark, weathered survival-horror theme for [Omarchy](https://omarchy.org/), inspired by
-*The Last of Us* and *Resident Evil*. Near-black charcoal-green backgrounds, bone-white text,
-and a **firefly amber** accent, with rust red and cordyceps moss green pulled from the games.
+*The Last of Us*. Near-black charcoal-green backgrounds, bone-white text, and a **firefly
+amber** accent, with rust red and cordyceps moss green pulled from the game.
 
 ---
 
@@ -29,6 +29,8 @@ omarchy theme bg next
 ```
 
 > The install command names the theme after the repo, so it applies as `last-of-us-omarchy`.
+> To have it show up as **Freebuff** in the theme picker, rename the repo (or the cloned
+> folder) to `freebuff` — the folder name is the display name.
 
 ## Palette
 
@@ -43,8 +45,14 @@ omarchy theme bg next
 
 ## What's themed
 
-Terminals (Alacritty, Ghostty, Kitty), Hyprland borders, Hyprlock, Waybar, Walker, Wofi,
-Mako, SwayOSD, btop, Neovim (via aether.nvim), Chromium, and icons (Yaru-olive).
+Terminals (Alacritty, Foot, Ghostty, Kitty), Hyprland borders, Hyprlock, Waybar, Walker,
+Wofi, Mako (with an optional Last of Us notification sound), SwayOSD, btop, Neovim
+(via aether.nvim), Helix, Obsidian, gum menus, keyboard RGB, Chromium, and icons
+(Yaru-olive).
+
+> The Mako notification sound plays automatically when
+> `~/.config/tlou/notify-sound.sh` exists — drop your own Last of Us sound there, or
+> leave it out for silent notifications.
 
 ---
 
@@ -66,18 +74,13 @@ All wallpapers live in [`backgrounds/`](backgrounds/) and are cycled with `omarc
 </p>
 <p align="center">
   <img src="backgrounds/bg7.jpg" width="49%" />
-  <img src="backgrounds/bg8.jpg" width="49%" />
-</p>
-<p align="center">
-  <img src="backgrounds/bg9.jpg" width="49%" />
-  <img src="backgrounds/bg10.jpg" width="49%" />
 </p>
 
 > Drop any `.jpg` / `.png` into `backgrounds/` to add more — no config needed, they join the
-> wallpaper cycler automatically. To have them show in the gallery above, name them `bg11.jpg`,
-> `bg12.jpg`, etc. and add matching `<img>` lines here.
+> wallpaper cycler automatically. To have them show in the gallery above, name them `bg8.jpg`,
+> `bg9.jpg`, etc. and add matching `<img>` lines here.
 
 ## Credits
 
-Game artwork belongs to their respective owners (Naughty Dog / Sony, Capcom). This theme
-only recolors the desktop; wallpapers are provided for personal use.
+Game artwork belongs to its owners (Naughty Dog / Sony). This theme only recolors the
+desktop; wallpapers are provided for personal use.
