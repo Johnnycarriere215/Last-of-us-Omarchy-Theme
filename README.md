@@ -1,9 +1,24 @@
 # The Last of Us — Omarchy Theme
 
 A dark survival-horror theme for [Omarchy](https://omarchy.org/) inspired by
-*The Last of Us*. It uses near-black charcoal-green surfaces, bone-white text,
-and a firefly-amber accent, with rust red and cordyceps-moss green pulled from
-the game's palette.
+*The Last of Us*, the action-adventure series by Naughty Dog. The palette is
+taken from the game's post-apocalyptic America — vegetation reclaiming ruined
+cities, bone-white light, and the amber glow of the Firefly emblem — set
+against rust and cordyceps-moss accents.
+
+## Design
+
+*The Last of Us* is set roughly twenty years after a Cordyceps fungus
+pandemic collapses society, in overgrown ruins lit by flashlights and fire.
+The theme translates that visual language to the desktop:
+
+- **Background** — the deep charcoal-green of shadowed, overgrown ruins.
+- **Foreground** — bone-white light and sun-bleached surfaces.
+- **Accent** — firefly amber, echoing the Fireflies' emblem and the
+  flashlights that cut through the dark.
+- **Red** — rust, blood, and the violence of the infected world.
+- **Green** — cordyceps moss, the vegetation reclaiming the cities.
+- **Teal / Blue** — rain and overcast skies.
 
 ## Installation
 
@@ -102,5 +117,6 @@ matching `<img>` lines here.
 
 ## Credits
 
-Game artwork belongs to its owners (Naughty Dog / Sony) and is provided for
-personal use. This theme only recolors the desktop.
+*The Last of Us* is a trademark of Sony Interactive Entertainment and was
+developed by Naughty Dog. This is an unofficial fan-made theme; game artwork
+is provided for personal use only.
