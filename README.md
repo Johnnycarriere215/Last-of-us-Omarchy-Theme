@@ -1,86 +1,63 @@
-# 🔦 Freebuff — The Last of Us Theme for Omarchy
+# Freebuff — The Last of Us Theme for Omarchy
 
-> A dark, weathered survival-horror theme for [Omarchy](https://omarchy.org/), born from
-> the world of *The Last of Us*. Charcoal-green shadows, bone-white text, and the glow of a
-> firefly — right on your desktop.
+A dark survival-horror theme for [Omarchy](https://omarchy.org/) inspired by
+*The Last of Us*. It uses near-black charcoal-green surfaces, bone-white text,
+and a firefly-amber accent, with rust red and cordyceps-moss green pulled from
+the game's palette.
 
-Inspired by the quiet dread of the post-outbreak world, **Freebuff** wraps your entire
-desktop in a moody, cinematic palette: near-black charcoal-green surfaces, bone-white
-readable text, a **firefly amber** accent, rust red, and cordyceps moss green — all pulled
-straight from the game's iconic look.
-
----
-
-## ✨ Features
-
-- 🎨 **A full, cohesive palette** — every app reads from the same 16-color theme
-- 🖥️ **Themed end-to-end** — terminals, window manager, bar, launchers, notifications,
-  lock screen, editors, and more
-- 🖼️ **Curated wallpapers** — a hand-picked Last of Us gallery, cycled with one keybind
-- 🔔 **Immersive touches** — optional Last of Us notification sound
-- 📦 **One-command install** — clone, apply, enjoy
-
----
-
-## 🚀 Installation
+## Installation
 
 ```bash
 omarchy theme install https://github.com/Johnnycarriere215/Last-of-us-Omarchy-Theme.git
 ```
 
-## 🎮 Usage
+## Usage
 
-Switch to the theme any time:
+Apply the theme:
 
 ```bash
 omarchy theme set "last-of-us-omarchy"
 ```
 
-Cycle through the wallpapers:
+Cycle through the bundled wallpapers:
 
 ```bash
 omarchy theme bg next
 ```
 
-> **Note:** the install command names the theme after the repo, so it applies as
-> `last-of-us-omarchy`. To have it show up as **Freebuff** in the theme picker, rename the
-> repo (or the cloned folder) to `freebuff` — the folder name is the display name.
+The theme is named after the repository, so it installs as
+`last-of-us-omarchy`. To have it appear as **Freebuff** in the theme picker,
+rename the cloned folder (or the repository) to `freebuff`.
 
----
+## Palette
 
-## 🎨 Palette
+| Role        | Hex       | Description     |
+|-------------|-----------|-----------------|
+| Background  | `#12140e` | charcoal-green  |
+| Foreground  | `#cec9bd` | bone            |
+| Accent      | `#c9803a` | firefly amber   |
+| Red         | `#a44a3f` | rust            |
+| Green       | `#6d7d4e` | moss / cordyceps|
+| Teal / Blue | `#4f6b74` | rain            |
 
-| Role        | Hex       |               |
-|-------------|-----------|---------------|
-| Background  | `#12140e` | charcoal-green |
-| Foreground  | `#cec9bd` | bone           |
-| Accent      | `#c9803a` | firefly amber  |
-| Red         | `#a44a3f` | rust           |
-| Green       | `#6d7d4e` | moss / cordyceps |
-| Teal / Blue | `#4f6b74` | rain           |
+## What's themed
 
----
+| Component      | Apps                                            |
+|----------------|-------------------------------------------------|
+| Terminals      | Alacritty, Foot, Ghostty, Kitty                 |
+| Window manager | Hyprland borders, Hyprlock, SwayOSD             |
+| Bar & launchers| Waybar, Walker, Wofi, gum menus                 |
+| Notifications  | Mako                                            |
+| Editors        | Neovim (aether.nvim), Helix, Obsidian, VS Code  |
+| Other          | btop, Chromium, keyboard RGB, icons (Yaru-olive)|
 
-## 🧩 What's themed
+Mako plays a notification sound when `~/.config/tlou/notify-sound.sh` exists;
+otherwise notifications stay silent.
 
-| Category      | Apps |
-|---------------|------|
-| 🖥️ Terminals  | Alacritty, Foot, Ghostty, Kitty |
-| 🪟 Window mgr | Hyprland borders, Hyprlock, SwayOSD |
-| 📊 Bar & menus| Waybar, Walker, Wofi, gum menus |
-| 🔔 Notifications | Mako |
-| 📝 Editors    | Neovim (aether.nvim), Helix, Obsidian, VSCode |
-| 🎨 Elsewhere  | btop, Chromium, keyboard RGB, icons (Yaru-olive) |
+## Wallpapers
 
-> 🔔 **Notification sound:** if you drop your own Last of Us sound at
-> `~/.config/tlou/notify-sound.sh`, Mako plays it on every notification — no config
-> needed. No file, no sound. Your call. 🦋
-
----
-
-## 🖼️ Wallpapers
-
-All wallpapers live in [`backgrounds/`](backgrounds/) and are cycled with `omarchy theme bg next`.
+The theme ships 18 wallpapers in `backgrounds/`, all from *The Last of Us*.
+They are cycled with `omarchy theme bg next`.
 
 <p align="center">
   <img src="backgrounds/bg1.jpg" width="49%" />
@@ -118,20 +95,12 @@ All wallpapers live in [`backgrounds/`](backgrounds/) and are cycled with `omarc
   <img src="backgrounds/tlou-xlxryl.jpg" width="49%" />
   <img src="backgrounds/tlou-ymppyd.jpg" width="49%" />
 </p>
-<p align="center">
-  <img src="backgrounds/tlou-zmw3yw.jpg" width="49%" />
-</p>
 
-> All 19 wallpapers ship with the theme — the full Last of Us cycle, exactly as used on
-> the author's desktop. Drop any `.jpg` / `.png` into `backgrounds/` to add more; they
-> join the wallpaper cycler automatically. To show new ones in the gallery above, add
-> matching `<img>` lines here.
+To add more wallpapers, drop `.jpg` or `.png` files into `backgrounds/` — they
+join the cycle automatically. To display them in the gallery above, add
+matching `<img>` lines here.
 
----
+## Credits
 
-## 📜 Credits
-
-Game artwork belongs to its owners (Naughty Dog / Sony) and is provided for personal use.
-This theme only recolors the desktop — no assets were taken from the game itself.
-
-Crafted with 🧡 and a little help from **Freebuff**.
+Game artwork belongs to its owners (Naughty Dog / Sony) and is provided for
+personal use. This theme only recolors the desktop.
