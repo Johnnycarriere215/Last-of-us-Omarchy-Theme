@@ -64,10 +64,13 @@ the cloned folder.
 | Bar & launchers| Waybar, Walker, Wofi, gum menus                 |
 | Notifications  | Mako                                            |
 | Editors        | Neovim (aether.nvim), Helix, Obsidian, VS Code  |
-| Other          | btop, Chromium, keyboard RGB, icons (Yaru-olive)|
+| Other          | btop, Chromium, icons (Yaru-olive)            |
 
 Mako plays a notification sound when `~/.config/tlou/notify-sound.sh` exists;
 otherwise notifications stay silent.
+
+Keyboard RGB is applied automatically to ASUS ROG and Framework Laptop 16
+keyboards, using the color in `keyboard.rgb`. Other keyboards are unaffected.
 
 ## Wallpapers
 
